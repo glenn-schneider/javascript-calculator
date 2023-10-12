@@ -1,0 +1,63 @@
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #aeb7bd;
+  font-family: Open Sans;
+}
+
+.calculator {
+  width: 312px;
+  height: 390px;
+  background-color: white;
+}
+
+.btn {
+  width: 75px;
+  height: 64px;
+  color: white;
+  font-size: 1.3em;
+  padding: 0;
+  border-radius: 0;
+}
+
+#clear,
+#zero {
+  width: 150px;
+}
+
+#equals {
+  height: 128px;
+  top: -64px;
+  margin-top: -64px;
+}
+
+.buttons {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+.display {
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+
+.number,
+.decimal {
+  background-color: #81a7b8;
+}
+
+.operator {
+  background-color: #6b8191;
+}
+
+.clear {
+  background-color: #adb8b9;
+}
+
+.equals {
+  background-color: #9bb7bf;
+}
